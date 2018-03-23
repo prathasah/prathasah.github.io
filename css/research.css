@@ -1,0 +1,10 @@
+section#research{
+    height:200px;
+    background-image: url("../images/synthetic_network.png");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    display:-webkit-flex; 
+    margin-top:60px;
+}
