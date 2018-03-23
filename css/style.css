@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+*{
+  box-sizing: border-box;
+}
+
+/* general and layout styles */
+body{
+    font-family: calibre, sans-serif;
+    margin:0;
+    font-size: 18px;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h3{
+    margin-top:30px;
+    color: rgb(43,153,173);
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(64,64,64);
+}
+
+/* header and banner styles */
+
+section#home{
+    height:400px;
+    background-image: url("../images/synthetic_network.png");
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    display:-webkit-flex;
+    margin-top:60px;
+}
+
+
+header{
+    margin: auto;
+    background-color:rgba(255,255,255,0.7);
+    border-radius:10px;
+    padding:50px;
+    
+}
+
+header h1{
+    font-size: 36px;
+    margin:0px;
+    color: rgb(43,153,173);
+    text-align: left;
+    font-family: 'Ubuntu', calibre, sans-serif;
+}
+
+header h2{
+    color:rgb(34,34,34);
+    font-size:24px;
+    margin:0px;
+    text-align: left;
+    font-family: 'Ubuntu', calibre, sans-serif;
+}
+
+
+
+header h2{
+    color:rgb(34,34,34);
+    font-size:24px;
+    margin:0px;
+    text-align: center;
+    font-family: 'Ubuntu', calibre, sans-serif;
+}
+
+/* nav styles */
+
+nav {
+    background-color: rgb(34,34,34);
+    position:fixed;
+    width:100%;
+    top:0;
+    height:60px;
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    padding-left: 0px;
+    padding-right:25px;
+
+}
+nav li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size:22px;
+    font-family: 'Ubuntu', calibre, sans-serif;
+}
+nav li:first-child a{
+    color: white;
+    float: left;
+}
+
+/* main sections */
+main {
+    margin-bottom: 60px;
+    padding:30px;
+    display: inline-block;
+}
+
+section#about p span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+section#about{
+    max-width:70%;
+    float:left;
+}
+
+img{
+    float:left;
+    /*display: inline-block;*/
+}
+
+section#updates{
+    max-width:20%;
+    float:right;
+}
+
+section#research p span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section#research{
+    max-width:70%;
+    float:left;
+}
+
+/*
+section#notes p span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section#notes{
+    float:left;
+    max-width:70%;
+}
+*/
+
+
+
+
+
+
+/* footer styles */
+
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    height:60px;
+    width:100%;
+    background: rgb(34,34,34);
+}
+
+footer ul{
+    list-style-type: none; 
+    margin: 0;
+    margin-top:20px;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+     display: inline;
+}
+
+footer ul li a { 
+    text-decoration: none; 
+    color: rgb(43,153,173);
+    font-size:20px;
+}
+
+footer li i{
+    margin: 0 10px 30px 10px;
+}
+
+
+.articles{
+    background: #EEEFF1;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+ 
+.article {
+   display: inline-block;
+   margin: 0px 2% 80px 2%;
+   /*text-align: center;*/
+   text-align: left;
+   width: 45%;
+}
+
+
+.article img {
+  width: 30%; /*DEFAULT 100%*/
+  float:left;
+ }
+
+
+table {   
+    /*max-width:90%;*/
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 50px 0;   
+}
+
+td {   
+   padding: 10px 0;
+}
+
