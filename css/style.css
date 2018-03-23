@@ -32,7 +32,7 @@ a {
 /* header and banner styles */
 
 section#home{
-    height:400px;
+    height:300px;
     background-image: url("../images/synthetic_network.png");
     background-size:cover;
     background-position: center center;
