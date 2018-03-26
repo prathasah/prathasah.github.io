@@ -23,6 +23,17 @@ h3{
     font-size: 22px;
 }
 
+figcaption {
+  padding: 5px;
+  color: rgb(43,153,173);
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  word-wrap:normal;
+  text-align: left;
+}
+
 a {
     text-decoration: none;
     font-weight: 600;
