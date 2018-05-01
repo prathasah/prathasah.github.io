@@ -9,3 +9,9 @@ section#research{
     margin-top:60px;
     padding-bottom: 20px; 
     }
+    
+a[href$=".pdf"]:before
+{
+  content:"\f1c1  ";
+  font-family: fontawesome;
+}
