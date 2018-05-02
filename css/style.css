@@ -23,6 +23,18 @@ h3{
     font-size: 22px;
 }
 
+h4{
+    margin-top:30px;
+    color: rgb(0,0,0);
+    font-size: 20px;
+}
+
+h5{
+    margin-top:30px;
+    color: rgb(120,120,120);
+    font-size: 18px;
+}
+
 figcaption {
   padding: 5px;
   color: rgb(43,153,173);
