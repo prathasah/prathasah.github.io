@@ -126,7 +126,6 @@ nav li {
 
 }
 nav li a{
-    color: white;
     text-transform: capitalize;
     font-weight: normal;
     color:rgb(120,120,120);
@@ -134,7 +133,7 @@ nav li a{
     font-family: 'Ubuntu', calibre, sans-serif;
 }
 nav li:first-child a{
-    color: white;
+    color:rgb(120,120,120);
     float: left;
 }
 
@@ -263,21 +262,3 @@ td {
    padding: 10px 0;
 }
 
-.author-social {
-  display: block;
-  margin-bottom: 5px;
-  @include font-rem(14);
-  color: $black;
-  &:visited {
-    color: $black;
-  }
-  &:hover {
-    @include scale(1.1);
-  }
-  &:active {
-    @include translate(0, 2px);
-  }
-  .fa {
-		margin-right: 5px;
-	}
-}
