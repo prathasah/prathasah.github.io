@@ -149,7 +149,7 @@ section#about p span{
     text-transform: capitalize;
 }
 
-
+ol { display:table; margin:0 auto;}
 section#about{
     max-width:70%;
     float:left;
